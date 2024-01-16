@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" style="text-align: center">
+      <div class="subcontainer">
+
+        <h2>Registro de tareas</h2>
+
+        <form [formGroup]="form" (submit)="aceptar()" class="example-form">
+           
+
+
+          <br />
+  
+  
+          <mat-form-field class="example-full-width" >
+            <mat-label>titulo</mat-label>
+            <input matInput placeholder="titulo" formControlName="titulo" />
+            <mat-error
+              *ngIf="obtenerControlCampo('titulo')?.errors?.['required']"
+            >
+              El titulo es obligatorio.
+            </mat-error>
+          </mat-form-field>
+  
+          <br />
+  
+  
+          <mat-form-field appearance="fill" class="example-full-width">
+          <input
+            matInput
+            placeholder="Ingrese fecha de nacimiento"
+            [matDatepicker]="picker"
+            formControlName="fechafin"
+            [max]="maxFecha"
+          />
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+          <mat-error
+            *ngIf="obtenerControlCampo('fechafin')?.errors?.['required']"
+          >
+            La fecha de finalización es obligatoria.
+          </mat-error>
+        </mat-form-field>
+  
+        <br />
+          <button mat-raised-button class="aceptar" color="primary">Aceptar</button>
+          <button mat-raised-button class="cancelar" color="warn" routerLink="/tareas">
+            Cancelar
+          </button>
+          <p>{{ mensaje }}</p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

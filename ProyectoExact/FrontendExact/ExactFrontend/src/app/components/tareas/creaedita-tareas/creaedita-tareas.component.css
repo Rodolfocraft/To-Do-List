@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Blanco grisáceo */
+    color: #333; /* Texto oscuro */
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  }
+  
+  .subcontainer {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #007bff; /* Azul brillante */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .mat-datepicker-toggle {
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #007bff; /* Azul brillante */
+    color: #fff; /* Texto blanco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+  }
+  
+  .error-message {
+    color: #dc3545; /* Rojo para mensajes de error */
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  .mensaje {
+    color: #007bff; /* Azul brillante para mensajes */
+    margin-top: 10px;
+  }
+  
+  .cancelar {
+    background-color: #dc3545; /* Rojo para el botón de cancelar */
+  }
+  
+  .cancelar:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+  }
+  

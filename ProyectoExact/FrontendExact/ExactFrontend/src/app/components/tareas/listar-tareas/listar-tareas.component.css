@@ -1,0 +1,48 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fff; /* Blanco */
+    color: #333; /* Texto oscuro */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6f7ff; /* Azul claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+  }
+  
+  h2 {
+    color: #0073e6; /* Azul intenso */
+  }
+  
+  button {
+    background-color: #0073e6; /* Azul intenso */
+    color: #fff; /* Texto blanco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005ba1; /* Azul más oscuro al pasar el ratón */
+  }
+  
+  .mat-elevation-z8 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra para la tabla */
+  }
+  
+  /* Estilos para resaltar la fila seleccionada */
+  .selected-row {
+    background-color: #b3d9ff; /* Azul más oscuro para resaltar la fila seleccionada */
+    font-weight: bold;
+    text-decoration: line-through; /* Subrayado para tareas activas */
+  }
+  .boton-nuevo{
+    margin: 0px 10px 10px 0px;
+}
+.boton-eliminar{
+    background-color: #dc3545;
+}
