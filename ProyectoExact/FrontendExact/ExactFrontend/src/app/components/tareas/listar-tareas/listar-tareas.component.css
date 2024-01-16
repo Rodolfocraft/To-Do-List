@@ -9,7 +9,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     background-color: #e6f7ff; /* Azul claro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
   
   h2 {
@@ -27,11 +27,11 @@ body {
   }
   
   button:hover {
-    background-color: #005ba1; /* Azul más oscuro al pasar el ratón */
+    background-color: #005ba1;
   }
   
   .mat-elevation-z8 {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra para la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
   }
   
   /* Estilos para resaltar la fila seleccionada */
