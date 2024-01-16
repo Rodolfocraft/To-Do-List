@@ -35,7 +35,7 @@ Ejecución del Proyecto:
 
 ng serve    || ng s
 
-cualquiera de los 2 comandos realizará la ejecución del proyecto, para apreciar los cambios debe ejecutarse el backend mediante el uso de postgres e intellijidea.
+cualquiera de los 2 comandos realizará la ejecución del proyecto, para apreciar los cambios debe ejecutarse el backend mediante el uso de postgresql e intellijidea.
 
 La aplicación estará disponible en http://localhost:4200/.
 
