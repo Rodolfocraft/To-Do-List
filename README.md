@@ -24,11 +24,17 @@ Servicios
 El servicio TareasService proporciona métodos para interactuar con las tareas, como listar, insertar,  y eliminar. Utiliza un modelo Tareas para representar la estructura de las tareas.
 
 Uso del Proyecto
+
 Instalación de Dependencias:
+
 npm install
+
 se debe colocar este comando en la consola del aplicativo antes de utilizarlo por el lado del frontend.
+
 Ejecución del Proyecto:
+
 ng serve    || ng s
+
 cualquiera de los 2 comandos realizará la ejecución del proyecto, para apreciar los cambios debe ejecutarse el backend mediante el uso de postgres e intellijidea.
 
 La aplicación estará disponible en http://localhost:4200/.
