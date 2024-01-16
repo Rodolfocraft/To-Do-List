@@ -47,7 +47,7 @@ export class ListarTareasComponent implements OnInit {
     // Actualizar la tarea en el servidor
     this.tS.update(row).subscribe(() => {
       console.log('Tarea actualizada');
-      // Refrescar los datos después de la actualización
+      // Refrescar los datos de la tabla luego del cambio
       this.refreshData();
     });
   }
