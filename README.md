@@ -1,44 +1,52 @@
-Sistema de Gestión de Tareas con Angular
+# 📝 Task Management System with Angular
 
-Este proyecto es una aplicación web de gestión de tareas desarrollada con Angular. Permite realizar operaciones básicas como la creación, eliminación y visualización de tareas. A continuación, se describen los principales componentes y funcionalidades del sistema.
+This project is a web application for task management developed with Angular. It allows basic operations such as creating, deleting, and viewing tasks. Below are the main components and functionalities of the system.
 
-Componentes Principales
-1. ListarTareasComponent
-El componente ListarTareasComponent se encarga de mostrar la lista de tareas en una tabla. Cada tarea se presenta con su identificador (id), título, fecha de finalización y opciones de acciones. Las funcionalidades incluyen:
+## 📋 Main Components
 
-Proceso de Tareas: Puedes seleccionar una tarea haciendo clic en la fila correspondiente, la selección indica que la tarea fue finalizada y puede revertise clickeando nuevamente.
+### ListarTareasComponent
 
-Eliminar Tarea: Se proporciona un botón "Eliminar" para eliminar la tarea seleccionada.
+The `ListarTareasComponent` is responsible for displaying the list of tasks in a table. Each task is presented with its identifier (id), title, completion date, and action options. The functionalities include:
 
-2. CreaeditaTareasComponent
-El componente CreaeditaTareasComponent gestiona la creación y edición de tareas. Incluye un formulario con campos para el título de la tarea y la fecha de finalización. Las características son:
+- **Task Processing**: You can select a task by clicking on the corresponding row. The selection indicates that the task was completed and can be reverted by clicking again.
+- **Delete Task**: A "Delete" button is provided to remove the selected task.
 
-Formulario de Tareas: Un formulario interactivo que permite ingresar el título y la fecha de finalización de una tarea.
+### CreaeditaTareasComponent
 
-Validación de Campos: Los campos de título y fecha de finalización están validados. Se muestra un mensaje de error si no se completan correctamente.
+The `CreaeditaTareasComponent` manages the creation and editing of tasks. It includes a form with fields for the task title and completion date. The features are:
 
-Creación y Edición de Tareas: Puedes crear nuevas tareas o editar las existentes utilizando este componente.
+- **Task Form**: An interactive form that allows you to enter the title and completion date of a task.
+- **Field Validation**: The title and completion date fields are validated. An error message is displayed if they are not filled out correctly.
+- **Creating and Editing Tasks**: You can create new tasks or edit existing ones using this component.
 
-Servicios
-1. TareasService
-El servicio TareasService proporciona métodos para interactuar con las tareas, como listar, insertar,  y eliminar. Utiliza un modelo Tareas para representar la estructura de las tareas.
+## 🛠️ Services
 
-Uso del Proyecto
+### TareasService
 
-Instalación de Dependencias:
+The `TareasService` provides methods to interact with tasks, such as listing, inserting, and deleting. It uses a `Tareas` model to represent the structure of the tasks.
+
+## 🚀 Using the Project
+
+### Installing Dependencies
+
+Run the following command in the application console before using it on the frontend:
 
 npm install
 
-se debe colocar este comando en la consola del aplicativo antes de utilizarlo por el lado del frontend.
+### Running the Project
 
-Ejecución del Proyecto:
+Use either of the following commands to run the project. To see the changes, the backend should be running using PostgreSQL and IntelliJ IDEA:
 
-ng serve    || ng s
+ng serve
 
-cualquiera de los 2 comandos realizará la ejecución del proyecto, para apreciar los cambios debe ejecutarse el backend mediante el uso de postgresql e intellijidea.
+or
 
-La aplicación estará disponible en http://localhost:4200/.
+ng s
 
-Espero que este aplicativo web sea de su agrado.
+The application will be available at http://localhost:4200/.
 
-Desarrollado por Gustavo Farje
+---
+
+I hope you enjoy this web application.
+
+Developed by Gustavo Farje
